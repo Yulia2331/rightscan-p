@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rightscan</title>
+</head>
+<body>
+    <header class="header">
+        <div class="mob-menu-trig">
+            <span class="mob-menu-trig__line"></span>
+            <span class="mob-menu-trig__line"></span>
+            <span class="mob-menu-trig__line"></span>
+            <div class="mob-menu-trig__close hide">&times;</div>
+        </div>
+        <div class="mob-menu hide">
+            <div class="mob-menu__nav">
+                <a href="#" class="mob-menu__link">Портфолио</a>
+                <a href="#" class="mob-menu__link">О компании</a>
+                <a href="#" class="mob-menu__link">Доставка</a>
+                <a href="#" class="mob-menu__link">Контакты</a>
+                <a href="#" class="mob-menu__link">Регистрация проекта</a>
+            </div>
+            <div class="mob-menu__cat">
+                <h4 class="mob-menu__cat-title">Каталог товаров</h4>
+                <a href="#" class="mob-menu__link">Терминалы сбора данных</a>
+                <a href="#" class="mob-menu__link">Cканеры штрих-кодов</a>
+                <a href="#" class="mob-menu__link">Принтеры печати этикеток</a>
+                <a href="#" class="mob-menu__link">Планшеты</a>
+                <a href="#" class="mob-menu__link">Контрольно-кассовая техника</a>
+                <a href="#" class="mob-menu__link">Комплекты оборудования</a>
+            </div>
+        </div>
+        <div class="header-top container">
+            <div class="header-city">
+                <span class="header-city__title">Город:</span>
+                <span class="header-city__city">Москва</span>
+            </div>
+            <div class="header-menu">
+                <div class="header-nav">
+                    <a href="#" class="header-nav__link">Портфолио</a>
+                    <a href="#" class="header-nav__link">О компании</a>
+                    <a href="#" class="header-nav__link">Доставка</a>
+                    <a href="#" class="header-nav__link">Контакты</a>
+                    <a href="#" class="header-nav__link">Регистрация проекта</a>
+                </div>
+                <div class="header__btn-wrap">
+                    <a href="#" class="btn header__btn">Стать партнёром</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-center">
+            <div class="container">
+                <div class="header-center__content">
+                    <div class="header-logo">
+                        <a href="#" class="header-logo__link">
+                            <img src="img/logo.png" alt="logo" class="header-logo__img">
+                        </a>
+                        <div class="header-logo__text">
+                            <span class="header-logo__title">Дистрибьютор <br> UROVO в России</span>
+                            <span class="header-logo__descr">Автоматизация торговли и склада</span>
+                        </div>
+                    </div>
+                    <div class="header-info">
+                        <a href="tel:+74951910118" class="header-info__phone">8 (495) 191-01-18</a>
+                        <span class="header-info__descr">Звонок бесплатный 09:00 - 18:00</span>
+                    </div>
+                    <div class="header-cat">
+                        <div class="header-cat__item">
+                            <img src="img/icons/tsd.svg" alt="tsd" class="header-cat__img">
+                            <a href="#" class="header-cat__link">Настройка ТСД </a>
+                        </div>
+                        <div class="header-cat__item">
+                            <img src="img/icons/po.svg" alt="po" class="header-cat__img">
+                            <a href="#" class="header-cat__link">Мобильное ПО</a>
+                        </div>
+                    </div>
+                    <div class="header-enter">
+                        <img src="img/icons/enter.svg" alt="Вход" class="header-enter__icon">
+                        <span class="header-enter__text">Вход</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom__content">
+                    <a href="#" class="btn cataloge-btn">Каталог товаров</a>
+                    <div class="search">
+                        <input type="text" class="search__input" placeholder="Поиск">
+                        <button class="btn search__btn">
+                            <img src="img/icons/search.svg" alt="Поиск" class="search__icon">
+                        </button>
+                    </div>
+                    <div class="header-cart">
+                        <div class="header-cart__icon">
+                            <img src="img/icons/shopping-cart.svg" alt="Корзина" class="header-cart__img">
+                            <span class="header-cart__quantity">2</span>
+                        </div>
+                        <span class="header-cart__price">39 000 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="bread-crumbs">
+            <a href="" class="bread-crumbs__link">Главня</a>
+            <span class="bread-crumbs__del">/</span>
+            <a href="" class="bread-crumbs__link">Станки</a>
+            <span class="bread-crumbs__del">/</span>
+            <a href="" class="bread-crumbs__link">Пильные станки (распиловочные)</a>
+            <span class="bread-crumbs__del">/</span>
+            <a href="" class="bread-crumbs__link">Циркулярные</a>
+            <span class="bread-crumbs__del">/</span>
+            <a href="" class="bread-crumbs__link">Ryobi
+                торговли и склада</a>
+        </div>
+        <h1 class="product-title">UROVO T5000 Mini-PC</h1>
+        <div class="product-info">
+            <span class="product-info__articul">Код товара: 
+                <span class="product-info__articul-number">15505256</span>
+            </span>
+            <span class="product-info__guarantee">Гарантия производителя от 2 до 5 лет</span>
+        </div>
+        <div class="product-nav-top">
+            <div class="product-nav-top__item">
+                <a href="#spec" class="product-nav-top__link">ОПИСАНИЕ</a>
+                <span class="product-nav-top__quantity"></span>
+            </div>
+            <div class="product-nav-top__item">
+                <a href="#mod" class="product-nav-top__link">МОДИФИКАЦИИ</a>
+                <span class="product-nav-top__quantity">4</span>
+            </div>
+            <div class="product-nav-top__item">
+                <a href="#rp" class="product-nav-top__link">Реализованные проекты</a>
+                <span class="product-nav-top__quantity"></span>
+            </div>
+            <div class="product-nav-top__item">
+                <a href="#acc" class="product-nav-top__link">АКСЕССУАРЫ</a>
+                <span class="product-nav-top__quantity">2</span>
+            </div>
+            <div class="product-nav-top__item">
+                <a href="#feat" class="product-nav-top__link">ХАРАКТЕРИСТИКИ</a>
+                <span class="product-nav-top__quantity"></span>
+            </div>
+            <div class="product-nav-top__item">
+                <a href="#rev" class="product-nav-top__link">Отзывы</a>
+                <span class="product-nav-top__quantity"></span>
+            </div>
+        </div>
+        <section class="product-card">
+            <div class="product-card__sliders">
+                <div class="product-card__slider-big">
+                    <img src="img/big-photo.jpg" alt="photo" class="product-card__slider-big-item">
+                    <img src="img/nav-slide2.jpg" alt="photo" class="product-card__slider-big-item">
+                    <img src="img/nav-slide3.jpg" alt="photo" class="product-card__slider-big-item">
+                    <img src="img/nav-slide2.jpg" alt="photo" class="product-card__slider-big-item">
+                    <img src="img/nav-slide3.jpg" alt="photo" class="product-card__slider-big-item">
+                </div>
+                <div class="product-card__slider-nav">
+                    <img src="img/big-photo.jpg" alt="photo" class="product-card__slider-nav-item">
+                    <img src="img/nav-slide2.jpg" alt="photo" class="product-card__slider-nav-item">
+                    <img src="img/nav-slide3.jpg" alt="photo" class="product-card__slider-nav-item">
+                    <img src="img/nav-slide2.jpg" alt="photo" class="product-card__slider-nav-item">
+                    <img src="img/nav-slide3.jpg" alt="photo" class="product-card__slider-nav-item">
+                    <img src="img/nav-slide2.jpg" alt="photo" class="product-card__slider-nav-item">
+                    <img src="img/nav-slide3.jpg" alt="photo" class="product-card__slider-nav-item">
+                </div>
+            </div>
+            <div class="product-card__content">
+                <div class="product-card__info">
+                    <span class="product-card__descr">UROVO T5000 MINI-PC / T5000-08D0009E0W41802160 / 1.8GHZ / ANDROID 9.0 / 2 GB / 16 GB / ФОТОКАМЕРА / WIFI / 4G / 3G / GSM / GPRS / 8" / 1280X800 / ЕМКОСТНОЙ</span>
+                    <div class="product-card__icons-block">
+                        <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                        <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                        <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                        <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                        <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                        <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                    </div>
+                    <div class="product-card__vidio-slider">
+                        <div class="product-card__vidio-slider-item">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/MEizxb1zO0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="product-card__vidio-slider-item">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/MEizxb1zO0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card__buy-card">
+                    <span class="buy-card__price">19 324 ₽</span>
+                    <button class="btn buy-card__btn buy-card__to-cart">
+                        <img src="img/icons/to-cart.svg" alt="cart" class="cart-btn__icon">
+                        В корзину</button>
+                    <button class="btn buy-card__btn buy-card__quick-order">Быстрый заказ</button>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="product-information">
+            <div class="container">
+            <div id="mod" class="product-information__section">
+                <h2 class="section-title">Модификации</h2>
+                <div class="slider">
+                    <div class="card more-card">
+                        <div class="more-card__lable lable-hit"><img src="img/icons/like.svg" alt="icon" class="more-card__lable-icon">
+                            Хит продаж</div>
+                        <div class="more-card__lable lable-advise"><img src="img/icons/Core.svg" alt="icon" class="more-card__lable-icon">
+                            Советуем</div>
+                        <img src="img/big-photo.jpg" alt="photo" class="more-card__photo">
+                        <span class="more-card__model-title">Модель:</span>
+                        <span class="more-card__model">UROVO T5000 MINI-PC / T5000-08D0009E0W41802160 / 1.8GHZ / ANDROID 9.0 / 2 GB / 16 GB / ФОТОКАМЕРА / WIFI / 4G / 3G / GSM / GPRS / 8" / 1280X800 / ЕМКОСТНОЙ</span>
+                        <span class="more-card__articul">Артикул:
+                            <span class="more-card__articul-number">T5000-08D0009E0W41802160</span>
+                        </span>
+                        <div class="more-card__icons-block">
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                        </div>
+                        <div class="more-card__price-block">
+                            <span class="more-card__price">19 324 ₽</span>
+                            <span class="more-card__availability">Есть на складе</span>
+                        </div>
+                        <span class="more-card__guarantee">Гарантия 12 месяцев</span>
+                        <button class="btn buy-card__btn buy-card__to-cart">
+                            <img src="img/icons/to-cart.svg" alt="cart" class="cart-btn__icon">
+                            В корзину</button>
+                    </div>
+                    <div class="card more-card">
+                        <div class="more-card__lable lable-hit"><img src="img/icons/like.svg" alt="icon" class="more-card__lable-icon">
+                            Хит продаж</div>
+                        <div class="more-card__lable lable-advise"><img src="img/icons/Core.svg" alt="icon" class="more-card__lable-icon">
+                            Советуем</div>
+                        <img src="img/big-photo.jpg" alt="photo" class="more-card__photo">
+                        <span class="more-card__model-title">Модель:</span>
+                        <span class="more-card__model">UROVO T5000 MINI-PC / T5000-08D0009E0W41802160 / 1.8GHZ / ANDROID 9.0 / 2 GB / 16 GB / ФОТОКАМЕРА / WIFI / 4G / 3G / GSM / GPRS / 8" / 1280X800 / ЕМКОСТНОЙ</span>
+                        <span class="more-card__articul">Артикул:
+                            <span class="more-card__articul-number">T5000-08D0009E0W41802160</span>
+                        </span>
+                        <div class="more-card__icons-block">
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                        </div>
+                        <div class="more-card__price-block">
+                            <span class="more-card__price">19 324 ₽</span>
+                            <span class="more-card__availability">Есть на складе</span>
+                        </div>
+                        <span class="more-card__guarantee">Гарантия 12 месяцев</span>
+                        <button class="btn buy-card__btn buy-card__to-cart">
+                            <img src="img/icons/to-cart.svg" alt="cart" class="cart-btn__icon">
+                            В корзину</button>
+                    </div>
+                    <div class="card more-card">
+                        <div class="more-card__lable lable-hit"><img src="img/icons/like.svg" alt="icon" class="more-card__lable-icon">
+                            Хит продаж</div>
+                        <div class="more-card__lable lable-advise"><img src="img/icons/Core.svg" alt="icon" class="more-card__lable-icon">
+                            Советуем</div>
+                        <img src="img/big-photo.jpg" alt="photo" class="more-card__photo">
+                        <span class="more-card__model-title">Модель:</span>
+                        <span class="more-card__model">UROVO T5000 MINI-PC / T5000-08D0009E0W41802160 / 1.8GHZ / ANDROID 9.0 / 2 GB / 16 GB / ФОТОКАМЕРА / WIFI / 4G / 3G / GSM / GPRS / 8" / 1280X800 / ЕМКОСТНОЙ</span>
+                        <span class="more-card__articul">Артикул:
+                            <span class="more-card__articul-number">T5000-08D0009E0W41802160</span>
+                        </span>
+                        <div class="more-card__icons-block">
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                        </div>
+                        <div class="more-card__price-block">
+                            <span class="more-card__price">19 324 ₽</span>
+                            <span class="more-card__availability">Есть на складе</span>
+                        </div>
+                        <span class="more-card__guarantee">Гарантия 12 месяцев</span>
+                        <button class="btn buy-card__btn buy-card__to-cart">
+                            <img src="img/icons/to-cart.svg" alt="cart" class="cart-btn__icon">
+                            В корзину</button>
+                    </div>
+                    <div class="card more-card">
+                        <div class="more-card__lable lable-hit"><img src="img/icons/like.svg" alt="icon" class="more-card__lable-icon">
+                            Хит продаж</div>
+                        <div class="more-card__lable lable-advise"><img src="img/icons/Core.svg" alt="icon" class="more-card__lable-icon">
+                            Советуем</div>
+                        <img src="img/big-photo.jpg" alt="photo" class="more-card__photo">
+                        <span class="more-card__model-title">Модель:</span>
+                        <span class="more-card__model">UROVO T5000 MINI-PC / T5000-08D0009E0W41802160 / 1.8GHZ / ANDROID 9.0 / 2 GB / 16 GB / ФОТОКАМЕРА / WIFI / 4G / 3G / GSM / GPRS / 8" / 1280X800 / ЕМКОСТНОЙ</span>
+                        <span class="more-card__articul">Артикул:
+                            <span class="more-card__articul-number">T5000-08D0009E0W41802160</span>
+                        </span>
+                        <div class="more-card__icons-block">
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                        </div>
+                        <div class="more-card__price-block">
+                            <span class="more-card__price">19 324 ₽</span>
+                            <span class="more-card__availability">Есть на складе</span>
+                        </div>
+                        <span class="more-card__guarantee">Гарантия 12 месяцев</span>
+                        <button class="btn buy-card__btn buy-card__to-cart">
+                            <img src="img/icons/to-cart.svg" alt="cart" class="cart-btn__icon">
+                            В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div id="rp" class="product-information__section completed-projects">
+                <h2 class="section-title">Реализованные проекты</h2>
+                <div class="completed-projects__slider">
+                    <div class="completed-projects__card">
+                        <img src="img/proj-c.png" alt="photo" class="completed-projects__img">
+                    </div>
+                    <div class="completed-projects__card">
+                        <img src="img/proj-c.png" alt="photo" class="completed-projects__img">
+                    </div>
+                    <div class="completed-projects__card">
+                        <img src="img/proj-c.png" alt="photo" class="completed-projects__img">
+                    </div>
+                    <div class="completed-projects__card">
+                        <img src="img/proj-c.png" alt="photo" class="completed-projects__img">
+                    </div>
+                    <div class="completed-projects__card">
+                        <img src="img/proj-c.png" alt="photo" class="completed-projects__img">
+                    </div>
+                    <div class="completed-projects__card">
+                        <img src="img/proj-c.png" alt="photo" class="completed-projects__img">
+                    </div>
+                    <div class="completed-projects__card">
+                        <img src="img/proj-c.png" alt="photo" class="completed-projects__img">
+                    </div>
+                    <div class="completed-projects__card">
+                        <img src="img/proj-c.png" alt="photo" class="completed-projects__img">
+                    </div>
+                    <div class="completed-projects__card">
+                        <img src="img/proj-c.png" alt="photo" class="completed-projects__img">
+                    </div>
+                    <div class="completed-projects__card">
+                        <img src="img/proj-c.png" alt="photo" class="completed-projects__img">
+                    </div>
+                </div>
+        </div>
+            <div id="acc" class="product-information__section">
+                <h2 class="section-title">Аксессуары</h2>
+                <div class="goods-slider">
+                    <div class="card goods-card">
+                        <img src="img/acs.jpg" alt="photo" class="goods-card__photo">
+                        <span class="goods-card__articul">
+                            Артикул:
+                            <span class="goods-card__articul-number">ACC-DF04</span>
+                        </span>
+                        <div class="goods-card__price-wrap">
+                            <span class="goods-card__price">17999 ₽</span>
+                            <a href="#" class="btn goods-card__more">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card goods-card">
+                        <img src="img/acs.jpg" alt="photo" class="goods-card__photo">
+                        <span class="goods-card__articul">
+                            Артикул:
+                            <span class="goods-card__articul-number">ACC-DF04</span>
+                        </span>
+                        <div class="goods-card__price-wrap">
+                            <span class="goods-card__price">17999 ₽</span>
+                            <a href="#" class="btn goods-card__more">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card goods-card">
+                        <img src="img/acs.jpg" alt="photo" class="goods-card__photo">
+                        <span class="goods-card__articul">
+                            Артикул:
+                            <span class="goods-card__articul-number">ACC-DF04</span>
+                        </span>
+                        <div class="goods-card__price-wrap">
+                            <span class="goods-card__price">17999 ₽</span>
+                            <a href="#" class="btn goods-card__more">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card goods-card">
+                        <img src="img/acs.jpg" alt="photo" class="goods-card__photo">
+                        <span class="goods-card__articul">
+                            Артикул:
+                            <span class="goods-card__articul-number">ACC-DF04</span>
+                        </span>
+                        <div class="goods-card__price-wrap">
+                            <span class="goods-card__price">17999 ₽</span>
+                            <a href="#" class="btn goods-card__more">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card goods-card">
+                        <img src="img/acs.jpg" alt="photo" class="goods-card__photo">
+                        <span class="goods-card__articul">
+                            Артикул:
+                            <span class="goods-card__articul-number">ACC-DF04</span>
+                        </span>
+                        <div class="goods-card__price-wrap">
+                            <span class="goods-card__price">17999 ₽</span>
+                            <a href="#" class="btn goods-card__more">Подробнее</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div id="spec" class="product-information__section product-information__specification">
+            <div class="specification__wrap">
+                    <h2 class="section-title">Описание</h2>
+                    <p class="specification__text">UROVO T5000 Mini-PC соединяет в себе функции сразу нескольких устройств: прайс-чекера, информационного киоска, кассы самообслуживания с оплатой банковской картой с функцией NFC, а также возможности регистрации посещения и доступа. <br>
+                        T5000 Mini-PC (в любой конфигурации) поставляется без подставки. <br>
+                        Решение UROVO T5000 Mini-PC представлено в двух вариантах: <br>
+                        с камерой для считывания штрих-кодов; <br>
+                        без камеры для считывания штрих-кодов. <br>
+                        Дисплей для удобной работы с устройством
+                         T5000 Mini-PC поставляется в конфигурациях с диагональю дисплея в 8 и 10.1 дюймов сразрешением 800х1280. <br>
+                        Высокие характеристики производительности <br>
+                        Устройство имеет "богатую" техническую начинку: <br>
+                        8-и ядерный 64-битный процессор Cortex A53 процессор с частотой 1.8 GHz; <br>
+                        хорошие показатели памяти RAM: 2GB и ROM: 16GB; <br>
+                        операционная система Android 9.0; <br>
+                        расширенные возможности коммуникации - WiFi, Bluetooth 4.2, 2G/3G/4G. <br>
+                        Возможности сканирования и идентификации* <br>
+                        UROVO T5000 Mini-PC обладает расширенными возможностями считывания информации <br>
+                        за счет встроенных камер: <br>
+                        способной работать с QR кодами для оплаты; <br>
+                        инфракрасной камеры. <br>
+                        При этом устройство поддерживает работу с ID-картами и промышленными безконтактным и устройствами.
+                        </p>
+                </div>
+                <div class="specification-card">
+                    <h4 class="specification-card__title">Производитель</h4>
+                    <span class="specification-card__descr"><strong>Китай </strong>— страна производства</span>
+                    <h4 class="specification-card__title">Комплектация</h4>
+                    <span class="specification-card__descr">Mini-PC;</span>
+                    <span class="specification-card__descr">Упаковка.</span>
+                    <h4 class="specification-card__title">Габариты</h4>
+                    <span class="specification-card__descr">Вес (г.) - 2340</span>
+                    <span class="specification-card__descr">Габариты (мм.) - 345 х 140 х 125</span>
+                    <h4 class="specification-card__title">Документация</h4>
+                    <a href="#" class="specification-card__doc">UROVO T5000 Mini-PC</a>
+                    <a href="#" class="specification-card__doc">Документы</a>
+                    <a href="#" class="specification-card__doc">Упаковка</a>
+                </div>
+            </div>
+        </div>
+        <div id="feat" class="product-information__section product-information__feature">
+            <div class="container">
+                <div class="feature">
+                    <h2 class="section-title">Технические характеристики UROVO T5000 Mini-PC</h2>
+                    <div class="feature__block">
+                        <div class="feature__item">
+                            <h4 class="feature__item-title">Дополнительно</h4>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Сканер штрихкода</span>
+                            <span class="feature__item-text">Нет</span>
+                        </div>
+                        <div class="feature__item">
+                            <h4 class="feature__item-title">Производительность</h4>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Частота процессора</span>
+                            <span class="feature__item-text">1.8GHz</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Операционная система</span>
+                            <span class="feature__item-text">Android 9.0</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Частота процессора</span>
+                            <span class="feature__item-text">1.8GHz</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Частота процессора</span>
+                            <span class="feature__item-text">1.8GHz</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Частота процессора</span>
+                            <span class="feature__item-text">1.8GHz</span>
+                        </div>
+                        <div class="feature__item">
+                            <h4 class="feature__item-title">Беспроводная передача данных</h4>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Частота процессора</span>
+                            <span class="feature__item-text">1.8GHz</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Операционная система</span>
+                            <span class="feature__item-text">Android 9.0</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Частота процессора</span>
+                            <span class="feature__item-text">1.8GHz</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Частота процессора</span>
+                            <span class="feature__item-text">1.8GHz</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Частота процессора</span>
+                            <span class="feature__item-text">1.8GHz</span>
+                        </div>
+                        <div class="feature__item">
+                            <h4 class="feature__item-title">Дисплей</h4>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Размер дисплея (дюйм.)</span>
+                            <span class="feature__item-text">8</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Разрешение дисплея (пикс.)</span>
+                            <span class="feature__item-text">1280х800</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Размер дисплея (дюйм.)</span>
+                            <span class="feature__item-text">8</span>
+                        </div>
+                        <div class="feature__item">
+                            <h4 class="feature__item-title">Условия эксплуатации и производительность</h4>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Рабочая температура</span>
+                            <span class="feature__item-text">-20℃ +60℃</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Рабочая температура</span>
+                            <span class="feature__item-text">-20℃ +60℃</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Рабочая температура</span>
+                            <span class="feature__item-text">-20℃ +60℃</span>
+                        </div>
+                        <div class="feature__item">
+                            <span class="feature__item-text">Срок гарантии</span>
+                            <span class="feature__item-text">1 год</span>
+                        </div>
+                    </div>
+                    <div class="feature__cards-block">
+                        <div class="feature__card feature__card-blue">
+                            <h4 class="feature__card-title">У этого товара низкий процент брака</h4>
+                            <span class="feature__card-descr">По данным официального дистрибьютера в России сайта РайтСкан.</span>
+                        </div>
+                        <div class="feature__card feature__card-white">
+                            <h4 class="feature__card-title">Гарантия производителя от 2 до 5 лет</h4>
+                            <span class="feature__card-descr">на продукцию UROVO.</span>
+                        </div>
+                    </div>
+                    <span class="feature__note">*Производитель оставляет за собой право без уведомления дилера менять характеристики, внешний вид, комплектацию товара и место его 
+                        производства. Указанная информация не является публичной офертой</span>
+                </div>
+            </div>    
+        </div>
+        <div id="rev" class="product-information__section product-information__reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы о UROVO T5000 Mini-PC</h2>
+                <span class="reviews-slider__title">Фотографии покупателей</span>
+                <div class="reviews-slider">
+                    <img src="img/nav-slide3.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/nav-slide2.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/big-photo.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/nav-slide3.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/nav-slide2.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/big-photo.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/nav-slide3.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/nav-slide2.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/big-photo.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/nav-slide3.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/nav-slide2.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/big-photo.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/nav-slide3.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/nav-slide2.jpg" alt="photo" class="reviews-slider__item">
+                    <img src="img/big-photo.jpg" alt="photo" class="reviews-slider__item">
+                </div>
+                <div class="reviews-content">
+                    <div class="reviews-card">
+                        <h4 class="reviews-card__title">Отзывы с оценкой</h4>
+                        <div class="reviews-card__item">
+                            <div class="reviews-card__item-rating">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                            </div>
+                            <span class="reviews-card__item-rating-percent">100%</span>
+                            <span class="reviews-card__item-rating-number">5 отзывов</span>
+                        </div>
+                        <div class="reviews-card__item">
+                            <div class="reviews-card__item-rating">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-g.svg" alt="star" class="reviews-card__item-rating-star">
+                            </div>
+                            <span class="reviews-card__item-rating-percent">0%</span>
+                            <span class="reviews-card__item-rating-number">0 отзывов</span>
+                        </div>
+                        <div class="reviews-card__item">
+                            <div class="reviews-card__item-rating">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-g.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-g.svg" alt="star" class="reviews-card__item-rating-star">
+                            </div>
+                            <span class="reviews-card__item-rating-percent">0%</span>
+                            <span class="reviews-card__item-rating-number">0 отзывов</span>
+                        </div>
+                        <div class="reviews-card__item">
+                            <div class="reviews-card__item-rating">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-g.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-g.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-g.svg" alt="star" class="reviews-card__item-rating-star">
+                            </div>
+                            <span class="reviews-card__item-rating-percent">0%</span>
+                            <span class="reviews-card__item-rating-number">0 отзывов</span>
+                        </div>
+                        <div class="reviews-card__item">
+                            <div class="reviews-card__item-rating">
+                                <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-g.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-g.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-g.svg" alt="star" class="reviews-card__item-rating-star">
+                                <img src="img/icons/star-g.svg" alt="star" class="reviews-card__item-rating-star">
+                            </div>
+                            <span class="reviews-card__item-rating-percent">0%</span>
+                            <span class="reviews-card__item-rating-number">0 отзывов</span>
+                        </div>
+                    </div>
+                    <div class="reviews-block">
+                        <div class="reviews-block__nav">
+                            <div class="reviews-block__nav-block">
+                                <span class="reviews-block__nav-title">Сортировать по:</span>
+                                <span class="reviews-block__nav-item">Оценке</span>
+                                <span class="reviews-block__nav-item">Дате</span>
+                            </div>
+                            <div class="reviews-block__nav-block">
+                                <span class="reviews-block__nav-item">С фото</span>
+                                <span class="reviews-block__nav-item">С ответами</span>
+                            </div>
+                        </div>
+                        <div class="reviews-block__content">
+                            <div class="reviews-item">
+                                <span class="reviews-item__title">Анонимный пользователь</span>
+                                <div class="reviews-item__assessment">
+                                    <div class="reviews-item__rating">
+                                        <span class="reviews-item__rating-text">Оценка</span>
+                                        <div class="reviews-card__item-rating">
+                                            <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                            <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                            <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                            <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                            <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                        </div>
+                                    </div>
+                                    <span class="reviews-item__rating-text">Опыт использования: несколько месяцев</span>
+                                </div>
+                                <div class="reviews-item__block">
+                                    <span class="reviews-item__title">Достоинства</span>
+                                    <span class="reviews-item__text">Высокая вычислительная мощность, приятный дизайн, хороший тачпад</span>
+                                </div>
+                                <div class="reviews-item__block">
+                                    <span class="reviews-item__title">Недосткатки</span>
+                                    <span class="reviews-item__text">Нет</span>
+                                </div>
+                                <div class="reviews-item__block">
+                                    <span class="reviews-item__title">Комментарий</span>
+                                    <span class="reviews-item__text">Аппарат действительно мощный, быстрый. Процессов очень много, а DT40 c легкостью справляется, что сильно радует. Дизайн простой, приятный, удоюно лежит в руке. И отдельно радует тачпад - реагирует в любых условиях, не тормозит, не надо много раз нажимать на одну и ту же кнопку на экране. Интересное устройство, стоит своих денег.</span>
+                                </div>
+                                <div class="reviews-item__bottom-block">
+                                    <span class="reviews-item__date">02.05.2021</span>
+                                    <div class="reviews-item__like-block">
+                                        <span class="reviews-item__like-text">Полезно?</span>
+                                        <div class="reviews-item__like-like">
+                                            <img src="img/icons/like-rev.svg" alt="like" class="reviews-item__like-img">
+                                            <span class="reviews-item__like-q">0</span>
+                                        </div>
+                                        <div class="reviews-item__like-deslike">
+                                            <img src="img/icons/deslike-rev.svg" alt="deslike" class="reviews-item__like-img">
+                                            <span class="reviews-item__like-q">0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews-item">
+                                <span class="reviews-item__title">Анонимный пользователь</span>
+                                <div class="reviews-item__assessment">
+                                    <div class="reviews-item__rating">
+                                        <span class="reviews-item__rating-text">Оценка</span>
+                                        <div class="reviews-card__item-rating">
+                                            <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                            <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                            <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                            <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                            <img src="img/icons/star-y.svg" alt="star" class="reviews-card__item-rating-star">
+                                        </div>
+                                    </div>
+                                    <span class="reviews-item__rating-text">Опыт использования: несколько месяцев</span>
+                                </div>
+                                <div class="reviews-item__block">
+                                    <span class="reviews-item__title">Достоинства</span>
+                                    <span class="reviews-item__text">Высокая вычислительная мощность, приятный дизайн, хороший тачпад</span>
+                                </div>
+                                <div class="reviews-item__block">
+                                    <span class="reviews-item__title">Недосткатки</span>
+                                    <span class="reviews-item__text">Нет</span>
+                                </div>
+                                <div class="reviews-item__block">
+                                    <span class="reviews-item__title">Комментарий</span>
+                                    <span class="reviews-item__text">Аппарат действительно мощный, быстрый. Процессов очень много, а DT40 c легкостью справляется, что сильно радует. Дизайн простой, приятный, удоюно лежит в руке. И отдельно радует тачпад - реагирует в любых условиях, не тормозит, не надо много раз нажимать на одну и ту же кнопку на экране. Интересное устройство, стоит своих денег.</span>
+                                </div>
+                                <div class="reviews-item__bottom-block">
+                                    <span class="reviews-item__date">02.05.2021</span>
+                                    <div class="reviews-item__like-block">
+                                        <span class="reviews-item__like-text">Полезно?</span>
+                                        <div class="reviews-item__like-like">
+                                            <img src="img/icons/like-rev.svg" alt="like" class="reviews-item__like-img">
+                                            <span class="reviews-item__like-q">0</span>
+                                        </div>
+                                        <div class="reviews-item__like-deslike">
+                                            <img src="img/icons/deslike-rev.svg" alt="deslike" class="reviews-item__like-img">
+                                            <span class="reviews-item__like-q">0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination">
+                                <button class="pagination__btn pagination__btn-prev"></button>
+                                <button class="pagination__btn pagination__btn-next"></button>
+                                <span class="pagination__item">1</span>
+                                <span class="pagination__item">2</span>
+                                <span class="pagination__item">3</span>
+                                <span class="pagination__item pagination__item-active">4</span>
+                                <span class="pagination__item">5</span>
+                                <span class="pagination__item">6</span>
+                                <span class="pagination__item">7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-information__section product-information__question">
+            <div class="container">
+                <div class="question">
+                    <h2 class="question__title">Остались вопросы, напишите и мы ответим.</h2>
+                    <form class="question__form">
+                        <input type="text" class="question__input" placeholder="Напишите ваш текст и отправьте">
+                        <button class="btn question__btn">Задать вопрос</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product-information__section">
+                <h2 class="section-title">Похожие рекомендуемые товары</h2>
+                <div class="slider">
+                    <div class="card more-card">
+                        <div class="more-card__lable lable-hit"><img src="img/icons/like.svg" alt="icon" class="more-card__lable-icon">
+                            Хит продаж</div>
+                        <div class="more-card__lable lable-advise"><img src="img/icons/Core.svg" alt="icon" class="more-card__lable-icon">
+                            Советуем</div>
+                        <img src="img/big-photo.jpg" alt="photo" class="more-card__photo">
+                        <span class="more-card__model-title">Модель:</span>
+                        <span class="more-card__model">UROVO T5000 MINI-PC / T5000-08D0009E0W41802160 / 1.8GHZ / ANDROID 9.0 / 2 GB / 16 GB / ФОТОКАМЕРА / WIFI / 4G / 3G / GSM / GPRS / 8" / 1280X800 / ЕМКОСТНОЙ</span>
+                        <span class="more-card__articul">Артикул:
+                            <span class="more-card__articul-number">T5000-08D0009E0W41802160</span>
+                        </span>
+                        <div class="more-card__icons-block">
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                        </div>
+                        <div class="more-card__price-block">
+                            <span class="more-card__price">19 324 ₽</span>
+                            <span class="more-card__availability">Есть на складе</span>
+                        </div>
+                        <span class="more-card__guarantee">Гарантия 12 месяцев</span>
+                        <button class="btn buy-card__btn buy-card__to-cart">
+                            <img src="img/icons/to-cart.svg" alt="cart" class="cart-btn__icon">
+                            В корзину</button>
+                    </div>
+                    <div class="card more-card">
+                        <div class="more-card__lable lable-hit"><img src="img/icons/like.svg" alt="icon" class="more-card__lable-icon">
+                            Хит продаж</div>
+                        <div class="more-card__lable lable-advise"><img src="img/icons/Core.svg" alt="icon" class="more-card__lable-icon">
+                            Советуем</div>
+                        <img src="img/big-photo.jpg" alt="photo" class="more-card__photo">
+                        <span class="more-card__model-title">Модель:</span>
+                        <span class="more-card__model">UROVO T5000 MINI-PC / T5000-08D0009E0W41802160 / 1.8GHZ / ANDROID 9.0 / 2 GB / 16 GB / ФОТОКАМЕРА / WIFI / 4G / 3G / GSM / GPRS / 8" / 1280X800 / ЕМКОСТНОЙ</span>
+                        <span class="more-card__articul">Артикул:
+                            <span class="more-card__articul-number">T5000-08D0009E0W41802160</span>
+                        </span>
+                        <div class="more-card__icons-block">
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                        </div>
+                        <div class="more-card__price-block">
+                            <span class="more-card__price">19 324 ₽</span>
+                            <span class="more-card__availability">Есть на складе</span>
+                        </div>
+                        <span class="more-card__guarantee">Гарантия 12 месяцев</span>
+                        <button class="btn buy-card__btn buy-card__to-cart">
+                            <img src="img/icons/to-cart.svg" alt="cart" class="cart-btn__icon">
+                            В корзину</button>
+                    </div>
+                    <div class="card more-card">
+                        <div class="more-card__lable lable-hit"><img src="img/icons/like.svg" alt="icon" class="more-card__lable-icon">
+                            Хит продаж</div>
+                        <div class="more-card__lable lable-advise"><img src="img/icons/Core.svg" alt="icon" class="more-card__lable-icon">
+                            Советуем</div>
+                        <img src="img/big-photo.jpg" alt="photo" class="more-card__photo">
+                        <span class="more-card__model-title">Модель:</span>
+                        <span class="more-card__model">UROVO T5000 MINI-PC / T5000-08D0009E0W41802160 / 1.8GHZ / ANDROID 9.0 / 2 GB / 16 GB / ФОТОКАМЕРА / WIFI / 4G / 3G / GSM / GPRS / 8" / 1280X800 / ЕМКОСТНОЙ</span>
+                        <span class="more-card__articul">Артикул:
+                            <span class="more-card__articul-number">T5000-08D0009E0W41802160</span>
+                        </span>
+                        <div class="more-card__icons-block">
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                        </div>
+                        <div class="more-card__price-block">
+                            <span class="more-card__price">19 324 ₽</span>
+                            <span class="more-card__availability">Есть на складе</span>
+                        </div>
+                        <span class="more-card__guarantee">Гарантия 12 месяцев</span>
+                        <button class="btn buy-card__btn buy-card__to-cart">
+                            <img src="img/icons/to-cart.svg" alt="cart" class="cart-btn__icon">
+                            В корзину</button>
+                    </div>
+                    <div class="card more-card">
+                        <div class="more-card__lable lable-hit"><img src="img/icons/like.svg" alt="icon" class="more-card__lable-icon">
+                            Хит продаж</div>
+                        <div class="more-card__lable lable-advise"><img src="img/icons/Core.svg" alt="icon" class="more-card__lable-icon">
+                            Советуем</div>
+                        <img src="img/big-photo.jpg" alt="photo" class="more-card__photo">
+                        <span class="more-card__model-title">Модель:</span>
+                        <span class="more-card__model">UROVO T5000 MINI-PC / T5000-08D0009E0W41802160 / 1.8GHZ / ANDROID 9.0 / 2 GB / 16 GB / ФОТОКАМЕРА / WIFI / 4G / 3G / GSM / GPRS / 8" / 1280X800 / ЕМКОСТНОЙ</span>
+                        <span class="more-card__articul">Артикул:
+                            <span class="more-card__articul-number">T5000-08D0009E0W41802160</span>
+                        </span>
+                        <div class="more-card__icons-block">
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/camera.svg" alt="camera" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/3G.svg" alt="3G" class="product-card__icon-img"></div>
+                            <div class="product-card__icon"><img src="img/icons/4G.svg" alt="4G" class="product-card__icon-img"></div>
+                        </div>
+                        <div class="more-card__price-block">
+                            <span class="more-card__price">19 324 ₽</span>
+                            <span class="more-card__availability">Есть на складе</span>
+                        </div>
+                        <span class="more-card__guarantee">Гарантия 12 месяцев</span>
+                        <button class="btn buy-card__btn buy-card__to-cart">
+                            <img src="img/icons/to-cart.svg" alt="cart" class="cart-btn__icon">
+                            В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    <footer class="footer">
+        <div class="footer-form__wrap">
+            <div class="container">
+                <div class="footer-form">
+                    <h3 class="footer-form__title">Подпишитесь и будьте в курсе! Акции, скидки и распродажи ждут!</h3>
+                    <form class="footer-form__form">
+                        <input type="text" class="footer-form__input" placeholder="Введите ваш Email">
+                        <button class="btn footer-form__btn">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom__wrap">
+                    <div class="footer-bottom__column">
+                        <h4 class="footer-bottom__title">РайтСкан</h4>
+                        <a href="#" class="footer-bottom__link">О компании</a>
+                        <a href="#" class="footer-bottom__link">Контакты</a>
+                        <a href="#" class="footer-bottom__link">Проектное портфолио</a>
+                        <a href="#" class="footer-bottom__link">Правовая информация</a>
+                        <a href="#" class="footer-bottom__link">Новостная лента</a>
+                        <a href="#" class="footer-bottom__link">Видео</a>
+                    </div>
+                    <div class="footer-bottom__column">
+                        <h4 class="footer-bottom__title">Партнерам</h4>
+                        <a href="#" class="footer-bottom__link">Стать партнером</a>
+                        <a href="#" class="footer-bottom__link">Регистрация проекта</a>
+                        <a href="#" class="footer-bottom__link">Центр загрузки</a>
+                    </div>
+                    <div class="footer-bottom__column">
+                        <h4 class="footer-bottom__title">Предложения</h4>
+                        <a href="#" class="footer-bottom__link">Каталог товаров</a>
+                        <a href="#" class="footer-bottom__link">Готовые решения</a>
+                    </div>
+                    <div class="footer-bottom__column">
+                        <h4 class="footer-bottom__title">Сервис и поддержка</h4>
+                        <a href="#" class="footer-bottom__link">Техподдержка</a>
+                        <a href="#" class="footer-bottom__link">Сервисный центр</a>
+                        <a href="#" class="footer-bottom__link">Центр загрузки</a>
+                        <a href="#" class="footer-bottom__link">Склад</a>
+                    </div>
+                    <div class="footer-bottom__column">
+                        <h4 class="footer-bottom__title">Давайте дружить</h4>
+                        <div class="footer-social">
+                            <a href="#" class="footer-social__link">
+                                <img src="img/icons/vk.svg" alt="vk" class="footer-social__icon">
+                            </a>
+                            <a href="#" class="footer-social__link">
+                                <img src="img/icons/facebook.svg" alt="facebook" class="footer-social__icon">
+                            </a>
+                            <a href="#" class="footer-social__link">
+                                <img src="img/icons/youtube.svg" alt="youtube" class="footer-social__icon">
+                            </a>
+                            <a href="#" class="footer-social__link">
+                                <img src="img/icons/instagram.svg" alt="instagram" class="footer-social__icon">
+                            </a>
+                        </div>
+                        <h4 class="footer-bottom__title fwm">Рейтинг магазина</h4>
+                        <div class="footer-bottom__rating">
+                            <img src="img/icons/Shape.svg" alt="star" class="footer__rating-star">
+                            <img src="img/icons/Shape.svg" alt="star" class="footer__rating-star">
+                            <img src="img/icons/Shape.svg" alt="star" class="footer__rating-star">
+                            <img src="img/icons/Shape.svg" alt="star" class="footer__rating-star">
+                            <img src="img/icons/Shape.svg" alt="star" class="footer__rating-star">
+                        </div>
+                        <img src="img/yam.svg" alt="yam" class="yam">
+                    </div>
+                </div>
+                <a href="#" class="footer-bottom__link footer-bottom__link-conf">Политика конфинденциальности</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js" ></script>
+</body>
+</html>
